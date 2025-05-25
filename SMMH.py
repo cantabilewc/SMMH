@@ -10,7 +10,7 @@ class Unit:
     
 class SMMH:
     def __init__(self):
-        self.heap = [None, None]
+        self.heap = [None, None] #index 0, 1 不放值，pair從index 2(最min) 3(最max) 開始
     def check_validity(self):
         ok = True
         n = len(self.heap)
