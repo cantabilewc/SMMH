@@ -197,13 +197,11 @@ for j in range(0,test_loop):
 
 # smmh.print_heap_tree()
     # def pop_at(self, index):
-
-
+        #trickle_down
+        #bubble_up
+        
     # def trickle_down(self, index):
-    #     # 你可以根據 min-side / max-side 決定要往左 or 右子孫修復
-    #     # 這裡你先回傳 False 讓 bubble_up 也能測試到
     #     return False
 
     # def bubble_up(self, index):
-    #     # 這裡要補上你自己的上浮修復邏輯（檢查祖父節點 P2/P3）
     #     pass
